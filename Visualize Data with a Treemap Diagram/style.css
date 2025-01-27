@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#title {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#treemap {
+  margin: 0 auto;
+  display: block;
+}
+
+.tile {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+#legend {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.legend-item {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+}
